@@ -1,0 +1,162 @@
+/****************
+COMMON
+****************/
+
+html,
+body {
+    height: 100%;
+   
+}
+
+.content {
+    max-width: 573px;
+    height: fit-content;
+    /* height: 100%; */
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    color: blueviolet;
+}
+
+
+/***************
+POST
+***************/
+
+.post_form {
+    padding: 20px 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+.post_form input {
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1 px solid #ccc;
+}
+
+.post_form textarea {
+    width: 74%;
+  
+}
+
+.posts ul {
+    padding: 0;
+}
+
+.posts li {
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    font-family: sans-serif;
+    color: darkorchid;
+}
+
+.posts li .menu-icon {
+    width: 20px;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+
+}
+
+.posts li .menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 35px;
+    border: 1px solid #ccc;
+    background-color: lightpink;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.posts li .menu a {
+    text-decoration: none;
+}
+
+.posts li .logo {
+    flex-basis: 15%;
+    
+}
+
+content .posts .logo img {
+    width: 3vw;
+    height: 3vw;
+    background-color: darkorchid;
+}
+
+.posts li .name_body {
+    flex-basis: 85%;
+}
+
+.posts li .name_body .name {
+    font-weight: bold;
+}
+
+.posts li .name_body .datetime {
+    color: gray;
+}
+
+
+@media screen and (max-width: 500px) { 
+    .post li .name_body .name {
+        font-size: 20px;
+    }
+}
+
+.post_form input {
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: darkorchid;
+    font-family: fantasy;
+}
+
+.like-button {
+    color: darkred;
+    background: none;
+    border: none;
+    font-size: 2vw;
+}
+
+img {
+    width: 78%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+
+input[type="submit"] {
+    width: 20%;
+    margin-left: 4%;
+    background-color: pink;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+textarea {
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+
+.editelement {
+    display: flex;
+    align-items: center;
+}
+
+a.cancel {
+    text-decoration: none;
+    background-color: pink;
+    border: 2px solid black;
+    padding: 2%;
+    width: 17%;
+    text-align: center;
+    border-radius: 3px;
+}
